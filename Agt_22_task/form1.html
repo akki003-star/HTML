@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body{
+        display: flex;
+      justify-content: center;   /* center horizontally */
+      align-items: center;       /* center vertically */
+      height: 100vh;             /* full screen height */
+      margin: 0;
+      background-color: #f0f8ff; 
+        }
+        .box{
+            width: 80%;
+      max-width: 900px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+
+        }
+    </style>
+    
+</head>
+<!-- style="text-align: center;" -->
+<body >
+    <div class="box">
+    <form action="">
+        <h1>Registration Form</h1>
+        <label for="name">First Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter First Name"><br>
+        <label for="name">Last Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter Last Name"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter Email Addres"><br>
+        <label for="password">password:</label>
+        <input type="password" id="password" name="password"><br>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="male" value="male"><br>
+        <label for="male">male:</label>
+        <input type="radio" id="female" name="female" value="female"><br>
+        <label for="female">Female:</label>
+        <input type="radio" id="Other" name="Other" value="Other"><br>
+        <label for="Other">Other:</label>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"><br>
+        <label>Preferences:</label><br>
+        Acrylic Painting<input type="checkbox" name="Preferences" value="acrylic"> <br>
+        Oil Painting <input type="checkbox" name="Preferences" value="oil"> <br>
+        Water Color Painting <input type="checkbox" name="Preferences" value="water"> <br>
+        <label for="">Select Occupation</label>
+        <select name="" id="">
+            <option value="">---Student --</option>
+        </select><br>
+        Bio<textarea name="" id=""placeholder="share few line about yourself..."></textarea><br>
+        <input type="reset" name="" id="">
+        <input type="submit">
+
+            </div>
+    </form>
+
+</body>
+
+</html>
